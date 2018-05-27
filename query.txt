@@ -1,0 +1,236 @@
+if you are good at dbms then these datasets will be a good start
+for your analysis skills..................
+
+check out the  down portion of this file...
+
+
+assume-->the 
+
+
+ select icode,ocboys,branch from 17cutoff where ocboys between 15000 and 30000 and branch='cse' or branch='ece';
++--------+--------+--------+
+| icode  | ocboys | branch |
++--------+--------+--------+
+| AARM   | 26907  | CSE    |
+| AARM   | 33871  | ECE    |
+| ACEG   | 22063  | CSE    |
+| ACEG   | 27256  | ECE    |
+| AHTC   | 72860  | ECE    |
+| AITH   | 52516  | ECE    |
+| AKIT   | 88921  | ECE    |
+| ANRH   | 38768  | ECE    |
+| ANRK   | 99829  | ECE    |
+| ARJN   | 102487 | ECE    |
+| ASOK   | 81655  | ECE    |
+| AURB   | 71970  | ECE    |
+| AURC   | 28846  | CSE    |
+| AURC   | 33817  | ECE    |
+| AURP   | 36864  | ECE    |
+| AVIH   | 57307  | ECE    |
+| AVNI   | 47915  | ECE    |
+| BIET   | 36609  | ECE    |
+| BITN   | 99014  | ECE    |
+| BOMA   | 90736  | ECE    |
+| BOSE   | 95891  | ECE    |
+| BREW   | NA     | ECE    |
+| BRIG   | 100916 | ECE    |
+| BRIL   | 96088  | ECE    |
+| BSGP   | 96850  | ECE    |
+| BSKR   | 68364  | ECE    |
+| BVRI   | 7803   | ECE    |
+| BVRW   | NA     | ECE    |
+| CBIT   | 1260   | ECE    |
+| CHTN   | 101008 | ECE    |
+| CHTS   | 101848 | ECE    |
+| CITS   | 99317  | ECE    |
+| CMRG   | 21207  | CSE    |
+| CMRG   | 23423  | ECE    |
+| CMRK   | 11690  | ECE    |
+| CMRM   | 16356  | CSE    |
+| CMRM   | 18964  | ECE    |
+| CMRN   | 24949  | CSE    |
+| CMRN   | 29320  | ECE    |
+| CVRH   | 5875   | ECE    |
+| CVSR   | 10279  | ECE    |
+| DHRU   | 81715  | ECE    |
+| DRKC   | 58174  | ECE    |
+| DRKI   | 72778  | ECE    |
+| ELEN   | 100447 | ECE    |
+| ELET   | 61849  | ECE    |
+| GCTC   | 15054  | CSE    |
+| GCTC   | 19268  | ECE    |
+| GLOB   | 46055  | ECE    |
+| GNIT   | 11057  | ECE    |
+| GNPT   | 44548  | ECE    |
+| GNTW   | NA     | ECE    |
+| GRRR   | 5097   | ECE    |
+| GTEN   | 103512 | ECE    |
+| GURU   | 16935  | ECE    |
+| HITM   | 25714  | CSE    |
+| HITM   | 30441  | ECE    |
+| HOLY   | 51503  | ECE    |
+| IARE   | 15200  | ECE    |
+| IITT   | 103036 | ECE    |
+| INDI   | 37520  | ECE    |
+| INDU   | 18131  | CSE    |
+| INDU   | 21536  | ECE    |
+| JAYA   | 89502  | ECE    |
+| JBIT   | 12341  | ECE    |
+| JIET   | 62525  | ECE    |
+| JMTK   | 60089  | ECE    |
+| JMTS   | 63740  | ECE    |
+| JNKR   | 6292   | ECE    |
+| JNTH   | 708    | ECE    |
+| JNTHM  | 2334   | ECE    |
+| JNTHM  | 1715   | ECE    |
+| JNTS   | 6571   | ECE    |
+| JOGI   | 27532  | CSE    |
+| JOGI   | 37211  | ECE    |
+| JPNE   | 99515  | ECE    |
+| KCEA   | 101477 | ECE    |
+| KDDW   | NA     | ECE    |
+| KGRH   | 52448  | ECE    |
+| KITE   | 58397  | ECE    |
+| KITS   | 8909   | ECE    |
+| KITW   | NA     | ECE    |
+| KLRT   | 100434 | ECE    |
+| KMIT   | 7605   | ECE    |
+| KMTS   | 101940 | ECE    |
+| KNRR   | 86377  | ECE    |
+| KPRT   | 43000  | ECE    |
+| KTKM   | 27843  | CSE    |
+| KTKM   | 33661  | ECE    |
+| KUCESF | 25850  | ECE    |
+| KUEWS  | NA     | ECE    |
+| KUWL   | 9184   | ECE    |
+| MDRK   | 58282  | ECE    |
+| MECS   | 8520   | ECE    |
+| METH   | 23020  | CSE    |
+| METH   | 28975  | ECE    |
+| MGHA   | NA     | ECE    |
+| MGIT   | 4753   | ECE    |
+| MGUNS  | 34263  | ECE    |
+| MHVR   | 20768  | CSE    |
+| MHVR   | 24916  | ECE    |
+| MINA   | NA     | ECE    |
+| MISW   | NA     | ECE    |
+| MLID   | 16830  | CSE    |
+| MLID   | 20053  | ECE    |
+| MLRD   | 15460  | CSE    |
+| MLRD   | 17986  | ECE    |
+| MLRS   | 24306  | CSE    |
+| MLRS   | 27768  | ECE    |
+| MLTM   | 35261  | ECE    |
+| MOTK   | 82932  | ECE    |
+| MRCE   | 22939  | CSE    |
+| MRCE   | 23420  | ECE    |
+| MRCW   | NA     | ECE    |
+| MREC   | 12677  | ECE    |
+| MREM   | 23446  | CSE    |
+| MREM   | 38836  | ECE    |
+| MRET   | 39623  | ECE    |
+| MREW   | NA     | ECE    |
+| MRIT   | 26530  | CSE    |
+| MRIT   | 32527  | ECE    |
+| MRTN   | 16476  | CSE    |
+| MRTN   | 20769  | ECE    |
+| MTEC   | 70060  | ECE    |
+| MVSR   | 4151   | ECE    |
+| NAGL   | 102799 | ECE    |
+| NETW   | NA     | ECE    |
+| NGMA   | 89990  | ECE    |
+| NIET   | 101778 | ECE    |
+| NNRG   | 37083  | ECE    |
+| NRCM   | 51027  | ECE    |
+| NREC   | 19863  | CSE    |
+| NREC   | 26071  | ECE    |
+| NRIH   | 95994  | ECE    |
+| NSHT   | 101799 | ECE    |
+| OUCE   | 711    | ECE    |
+| PETW   | NA     | ECE    |
+| PRIN   | 101299 | ECE    |
+| PRRM   | 100266 | ECE    |
+| RECN   | 69710  | ECE    |
+| RITW   | NA     | ECE    |
+| RRST   | 90610  | ECE    |
+| SAIS   | 90444  | ECE    |
+| SAJW   | NA     | ECE    |
+| SBIT   | 49862  | ECE    |
+| SDES   | 52051  | ECE    |
+| SDEW   | NA     | ECE    |
+| SDGI   | 29397  | ECE    |
+| SIEI   | 68689  | ECE    |
+| SIND   | 87478  | ECE    |
+| SISG   | 97762  | ECE    |
+| SKEC   | 103341 | ECE    |
+| SLCH   | 67832  | ECE    |
+| SMSK   | 69248  | ECE    |
+| SNIS   | 4110   | ECE    |
+| SNTI   | 60020  | ECE    |
+| SPEC   | 25581  | CSE    |
+| SPEC   | 29833  | ECE    |
+| SPHN   | 43287  | ECE    |
+| SRHP   | 24722  | CSE    |
+| SRHP   | 28698  | ECE    |
+| SRIT   | 79455  | ECE    |
+| SRIW   | NA     | ECE    |
+| SRTI   | 98850  | ECE    |
+| SRYS   | 24937  | CSE    |
+| SRYS   | 30981  | ECE    |
+| SSJV   | 73552  | ECE    |
+| STLW   | NA     | ECE    |
+| SVES   | 76413  | ECE    |
+| SVIT   | 26026  | CSE    |
+| SVIT   | 33419  | ECE    |
+| SVSE   | 102983 | ECE    |
+| TCEK   | 91620  | ECE    |
+| TCTK   | 101683 | ECE    |
+| TKEM   | 25680  | CSE    |
+| TKEM   | 31115  | ECE    |
+| TKRC   | 18080  | ECE    |
+| TPCE   | 94061  | ECE    |
+| TRML   | 76308  | ECE    |
+| TRRC   | 93860  | ECE    |
+| TUDI   | 88363  | ECE    |
+| VAGE   | 48216  | ECE    |
+| VASV   | 1677   | ECE    |
+| VBIT   | 19084  | CSE    |
+| VBIT   | 22404  | ECE    |
+| VBJN   | 86161  | ECE    |
+| VCET   | 76755  | ECE    |
+| VGNT   | 21465  | CSE    |
+| VGNT   | 25815  | ECE    |
+| VGSE   | 103012 | ECE    |
+| VGWL   | 76985  | ECE    |
+| VITH   | 103512 | ECE    |
+| VITS   | 71142  | ECE    |
+| VJEC   | 2483   | ECE    |
+| VJIT   | 17783  | ECE    |
+| VJYA   | 87177  | ECE    |
+| VKTS   | 101904 | ECE    |
+| VMEG   | 6366   | ECE    |
+| VMTW   | NA     | ECE    |
+| VREC   | 74260  | ECE    |
+| VVKN   | 69281  | ECE    |
+| WITS   | 86203  | ECE    |
++--------+--------+--------+
+
+
+
+like the above example you can analyse the data sets on how the top
+rankers are choosing colleges...
+we can even analyse the students based on their names and etc and we can mine the data..
+and can prepare the analysis...
+and i will upload many more files... 
+happy learning.....
+
+if you need help can contact me on my email....
+
+
+
+
+
+
+
+
+
