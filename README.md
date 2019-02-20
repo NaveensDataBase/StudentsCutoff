@@ -1,4 +1,4 @@
-# CutoffAnlaysis
+# RankAnalysis
 the cutoff database of a university can be used to predict the next year cutoff and keenness of students opting the colleges etc      
 ----->useful for data analysis and prediction 
 and this dataset can be used for analysing the student behaviour towards some particular colleges....... 
